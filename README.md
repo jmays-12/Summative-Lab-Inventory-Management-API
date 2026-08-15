@@ -27,7 +27,7 @@ pipenv shell
 ## Running the Application
 
 ```bash
-python inventorymanager.py
+python app.py
 ```
 
 ## Testing
