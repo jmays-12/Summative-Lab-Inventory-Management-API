@@ -13,15 +13,16 @@ def fetch_by_barcode(barcode):
         headers=HEADERS
     )
 
-    response.raise_for_status()
-
-    data = response.json()
-
-    if data.get("status") != 1:
+    if response.status_code == 404:
         return None
 
-    product = data.get("product", {})
+    response.raise_for_status()
+    data = response.json()
 
+    if data["status"] != 1:
+        return None
+
+    product = data["product"]
     return {
         "barcode": barcode,
         "product_name": product.get("product_name", "Unknown"),
