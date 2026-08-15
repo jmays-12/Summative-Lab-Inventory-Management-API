@@ -4,7 +4,7 @@ inventory = [
         "barcode": "0049000028911",
         "product_name": "Diet Coke Soft Drink",
         "brands": "Coke",
-        "quantity": 50,
+        "quantity": 10,
         "price": 1.99
     },
     {
@@ -12,15 +12,15 @@ inventory = [
         "barcode": "016000275270",
         "product_name": "Gmills hny nut cheerios sweetened whl grn oat cereal",
         "brands": "General Mills",
-        "quantity": 50,
-        "price": 2.49
+        "quantity": 24,
+        "price": 5.49
     },
     {
-        "id": 4,
+        "id": 3,
         "barcode": "0028400090179",
         "product_name": "Cheddar & Sour Cream",
         "brands": "Ruffles",
-        "quantity": 50,
+        "quantity": 17,
         "price": 3.49
     }
 ]

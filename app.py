@@ -32,7 +32,7 @@ def create_item():
     if barcode:
         product_data = fetch_by_barcode(barcode)
         if product_data is None:
-            return jsonify({"error": "Barcode not found in OpenFoodFacts API"}), 404
+            return jsonify({"error": "Barcode not found in OpenFoodFacts"}), 404
         data.update(product_data)
 
     if not data.get("product_name"):
