@@ -2,9 +2,7 @@ from data.inventory import inventory
 
 
 def get_all_items():
-    if inventory:
-        return inventory
-    return []
+    return inventory
 
 
 def get_item(id):

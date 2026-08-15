@@ -10,7 +10,7 @@ inventory = [
     {
         "id": 2,
         "barcode": "016000275270",
-        "product_name": "Gmills hny nut cheerios sweetened whl grn oat cereal",
+        "product_name": "Honey Nut Cheerios",
         "brands": "General Mills",
         "quantity": 24,
         "price": 5.49
